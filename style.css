@@ -17,3 +17,89 @@ body {
     column-gap: 5%;
     row-gap: 30px;
 }
+
+.avatar img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.avatar {
+    display: flex;
+    justify-content: end;
+}
+.name {
+    padding-left: 30px;
+    border-left: 1px solid #000;
+}
+.name h1 {
+    font-weight: 300;
+    font-size: xxx-large;
+    margin: 0 0 5px;
+}
+
+.name .specialize {
+    margin: 0;
+    font-weight: bold;
+    letter-spacing: 3px;
+}
+.name .contact {
+    padding: 0;
+    list-style: none;
+}
+
+.name .contact span {
+    display: inline-block;
+    background: #000;
+    color: #fff;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    font-size: smaall;
+    margin-right: 20px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.name .contact li {
+    padding: 5px 0;
+    transform: translate(-40px);
+    background: #e9e7ea;
+}
+
+.info ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-align: right;
+    line-height: 30px;
+}
+
+.intro {
+    padding-left: 30px;
+    border-left: 1px solid #000;
+    text-align: justify;
+}
+h2 {
+    padding: 0;
+    margin: 0 0 20px;
+}
+
+.exp {
+    text-align: right;
+}
+
+.exp h4 {
+    margin: 20px 0 10px;
+}
+
+.skills {
+    margin-top: 50px;
+}
+.exp ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    line-height: 35px;
+}
